@@ -1,0 +1,110 @@
+.Extrabold28 {
+    font-family: 'Exo 2';
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 30px;
+}
+
+.Semibold28  {
+    font-family: 'Exo 2';
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 30px;
+}
+
+.Extrabold24 {
+    font-family: 'Exo 2';
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.Bold20 {
+    font-family: 'Exo 2';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.Semibold16  {
+    font-family: 'Exo 2';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21.6px;
+}
+
+.Medium16 {
+    font-family: 'Exo 2';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.Bold14 {
+    font-family: 'Exo 2';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.SemiboldItalic14 {
+    font-family: 'Exo 2';
+    font-weight: 600;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 19px;
+}
+
+.Semibold14 {
+    font-family: 'Exo 2';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.Medium14 {
+    font-family: 'Exo 2';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19.6px;
+}
+
+.ExtraBold12 {
+    font-family: 'Exo 2';
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.Bold12 {
+    font-family: 'Exo 2';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.Semibold12 {
+    font-family: 'Exo 2';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.blue {
+color: rgba(44, 106, 199, 1)
+} 
+.brightBlue {
+color: rgba(17, 45, 78, 1)
+} 
+
+.grey {
+color: rgba(129,144,162)
+}
+
+.darkGrey {
+color: 	rgba(135,150,165)
+}
+
+.commentColor {
+color: rgba(64,87,113)
+}

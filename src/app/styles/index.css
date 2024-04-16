@@ -1,0 +1,12 @@
+@import "reset";
+@import "global";
+
+.app {
+    display: flex;
+        min-height: 100vh;
+}
+
+body {
+   font: var(--font-family-main)
+}
+

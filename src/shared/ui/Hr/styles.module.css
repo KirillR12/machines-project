@@ -1,0 +1,17 @@
+.Hr {
+    height: 1px;
+    background: rgba(64, 87, 113);
+    border: none;
+}
+
+.max {
+    width: 100%;
+}
+
+.hrVertically {
+    transform: rotate(90deg);
+   }
+
+.inverted {
+    background: rgba(207,213,221);
+}

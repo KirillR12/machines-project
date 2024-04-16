@@ -1,0 +1,11 @@
+import { memo } from 'react'
+import { HStack } from '@/shared/ui/Stack'
+import styles from './styles.module.css'
+import { Text } from '@/shared/ui/Text'
+
+export const EquipmentHeader = memo(() => (
+    <HStack gap="6" align="end" className={styles.header}>
+        <Text title="Factory equipment" sizeTitle="Semibold28" color="brightBlue" tag="h1" />
+        <Text title="10" sizeTitle="Bold20" color="grey" tag="h2" />
+    </HStack>
+))
