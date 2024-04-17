@@ -1,0 +1,11 @@
+  .container {
+    background-color: rgba(230,234,236);
+    width: 110px;
+    height: 10px;
+    border-radius: 10px;
+  }
+  
+  .barCompleted {
+    background-color: red;
+   height: 10px;
+  }

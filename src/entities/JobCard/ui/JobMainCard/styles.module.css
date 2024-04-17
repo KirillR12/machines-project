@@ -1,0 +1,44 @@
+.JobCard {
+    width: 936px;
+    height: 34px;
+    border-radius: 3px;
+    padding: 10px;
+    border: 1px solid rgba(207,213,221);
+
+    &:hover {
+        border: 1px solid rgba(64,87,113);
+    }
+}
+
+.inverted {
+    width: 936px;
+    height: 34px;
+    border-radius: 0;
+    padding: 10px;
+    background-color: rgba(17, 45, 78, 1);
+    border: 1px solid rgba(17, 45, 78, 1);
+}
+
+.jobs {
+    width: 151px;
+    height: 20px;
+}
+
+.name {
+    width: 266px;
+    height: 20px;
+}
+
+.status {
+    width: 80px;
+    height: 20px;
+}
+
+.panel {
+    width: 114px;
+    height: 20px;
+}
+
+.progress {
+    width: 148px;
+}

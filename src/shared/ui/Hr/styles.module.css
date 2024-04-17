@@ -8,8 +8,15 @@
     width: 100%;
 }
 
+.maxInverted {
+    height: 100%;
+}
+
 .hrVertically {
-    transform: rotate(90deg);
+    width: 1px;   
+    background: rgba(64, 87, 113);
+    border: none;
+    border-left: 0.5px solid rgba(207,213,221);
    }
 
 .inverted {

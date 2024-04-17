@@ -1,0 +1,27 @@
+.JobNameCard {
+    height: 20px;
+}
+
+.jobs {
+    width: 151px;
+    height: 20px;
+}
+
+.name {
+    width: 456px;
+    height: 20px;
+}
+
+.status {
+    width: 89.5px;
+    height: 20px;
+}
+
+.panel {
+    width: 114px;
+    height: 20px;
+}
+
+.progress {
+    width: 148px;
+}

@@ -8,7 +8,7 @@ type sizeTitleH1Props = 'Extrabold28' | 'Semibold28' | 'Bold20'
 type sizeTitleH2Props = 'Extrabold24'
 type sizeTitleH5Props = 'Semibold16'
 
-type textColor = 'blue' | 'brightBlue' | 'grey' | 'darkGrey' | 'commentColor'
+type textColor = 'blue' | 'brightBlue' | 'grey' | 'darkGrey' | 'commentColor' | 'white'
 
 type HeaderTagType = 'h1' | 'h2' | 'h5'
 
@@ -19,7 +19,7 @@ type HeaderTagType = 'h1' | 'h2' | 'h5'
    sizeText?: sizeTextProps
    sizeTitle?: sizeTitleH1Props | sizeTitleH2Props | sizeTitleH5Props
    tag?: HeaderTagType
-   color: textColor
+   color?: textColor
 }
 
 const mapSizeToHeaderTag: Record<HeaderTagType, HeaderTagType> = {
@@ -36,7 +36,7 @@ export const Text = memo((props: TextProps) => {
         sizeText = 'Semibold16',
         sizeTitle = 'Extrabold28',
         tag = 'h1',
-        color,
+        color = '',
     } = props
 
     const HeaderTag = mapSizeToHeaderTag[tag]

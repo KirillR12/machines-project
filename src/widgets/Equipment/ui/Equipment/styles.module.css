@@ -1,4 +1,6 @@
 .Equipment {
     width: 753px;
     background-color: rgba(241,242,244);
+    height: 100vh;
+    overflow-y: auto;
 }

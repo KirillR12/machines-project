@@ -5,7 +5,7 @@ import styles from './styles.module.css'
 export type FlexJustify = 'start' | 'center' | 'end' | 'between'
 export type FlexAlign = 'start' | 'center' | 'end'
 export type FlexDirection = 'row' | 'column'
-export type FlexGap = '4' | '6' | '12' | '16'
+export type FlexGap = '4' | '6' | '12' | '16' | '24' | '50'
 
 const justifyClasses: Record<FlexJustify, string> = {
     start: styles.justifyStart,
@@ -30,6 +30,8 @@ const gapClasses: Record<FlexGap, string> = {
     6: styles.gap6,
     12: styles.gap12,
     16: styles.gap16,
+    24: styles.gap24,
+    50: styles.gap50,
 }
 
 type DivProps = DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement>

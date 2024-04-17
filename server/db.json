@@ -1,0 +1,522 @@
+{
+"stationListBig": [
+    {
+        "name": "Name in 20 characters",
+        "currentJobs": "313-04R-JHG5-313-04R",
+        "description": "Extruder",
+        "panel": "A41",
+        "panelDesctiption": "99/100",
+        "progress": 99,
+        "abbreviation": "E",
+        "status": "in progress"
+    },
+    {
+        "name": "Station No. 01",
+        "currentJobs": "615-18A-EXT 1",
+        "description": "Sheathing Bridge",
+        "panel": "A41",
+        "panelDesctiption": "99/100",
+        "progress": 64,
+        "abbreviation": "SB",
+        "status": "iddle"
+    },
+    {
+        "name": "Station No. 02",
+        "currentJobs": "",
+        "description": "Wall Panel Line",
+        "panel": "",
+        "panelDesctiption": "",
+        "abbreviation": "WPL",
+        "status": "iddle"
+    },
+    {
+        "name": "Station No. 02",
+        "currentJobs": "615-18A-EXT 1",
+        "description": "Wall Panel Line",
+        "panel": "---",
+        "panelDesctiption": "0/0",
+        "progress": 0,
+        "abbreviation": "WPL",
+        "status": "iddle"
+    },
+    {
+        "name": "Station No. 03",
+        "currentJobs": "313-04R-JHG5",
+        "description": "Wall Panel Line",
+        "panel": "A41",
+        "panelDesctiption": "40/61",
+        "progress": 75,
+        "abbreviation": "WPL",
+        "status": "in progress"
+    },
+    {
+        "name": "Station No. 04",
+        "currentJobs": "313-04R-JHG5-313-04R",
+        "description": "Extruder",
+        "panel": "Y45",
+        "panelDesctiption": "16/43",
+        "progress": 33,
+        "abbreviation": "E",
+        "status": "error"
+    },
+    {
+        "name": "Station No. 05",
+        "currentJobs": "545-23L-DKK6",
+        "description": "Sheathing Bridge",
+        "panel": "A41",
+        "panelDesctiption": "4/7",
+        "progress": 12,
+        "abbreviation": "SB",
+        "status": "in progress"
+    },
+    {
+        "name": "Station No. 06",
+        "currentJobs": "313-04R-JHG5-313-04R",
+        "description": "Squaring Table",
+        "panel": "E58",
+        "panelDesctiption": "1/70",
+        "progress": 3,
+        "abbreviation": "ST",
+        "status": "in progress"
+    },
+    {
+        "name": "Name in 20 characters",
+        "currentJobs": "313-04R-JHG5-313-04R",
+        "description": "Extruder",
+        "panel": "A41",
+        "panelDesctiption": "99/100",
+        "progress": 99,
+        "abbreviation": "E",
+        "status": "in progress"
+    },
+    {
+        "name": "Station No. 01",
+        "currentJobs": "615-18A-EXT 1",
+        "description": "Sheathing Bridge",
+        "panel": "A41",
+        "panelDesctiption": "99/100",
+        "progress": 64,
+        "abbreviation": "SB",
+        "status": "iddle"
+    },
+    {
+        "name": "Station No. 02",
+        "currentJobs": "",
+        "description": "Wall Panel Line",
+        "panel": "",
+        "panelDesctiption": "",
+        "abbreviation": "WPL",
+        "status": "iddle"
+    },
+    {
+        "name": "Station No. 02",
+        "currentJobs": "615-18A-EXT 1",
+        "description": "Wall Panel Line",
+        "panel": "---",
+        "panelDesctiption": "0/0",
+        "progress": 0,
+        "abbreviation": "WPL",
+        "status": "iddle"
+    },
+    {
+        "name": "Station No. 03",
+        "currentJobs": "313-04R-JHG5",
+        "description": "Wall Panel Line",
+        "panel": "A41",
+        "panelDesctiption": "40/61",
+        "progress": 75,
+        "abbreviation": "WPL",
+        "status": "in progress"
+    },
+    {
+        "name": "Station No. 04",
+        "currentJobs": "313-04R-JHG5-313-04R",
+        "description": "Extruder",
+        "panel": "Y45",
+        "panelDesctiption": "16/43",
+        "progress": 33,
+        "abbreviation": "E",
+        "status": "error"
+    },
+    {
+        "name": "Station No. 05",
+        "currentJobs": "545-23L-DKK6",
+        "description": "Sheathing Bridge",
+        "panel": "A41",
+        "panelDesctiption": "4/7",
+        "progress": 12,
+        "abbreviation": "SB",
+        "status": "in progress"
+    },
+    {
+        "name": "Station No. 06",
+        "currentJobs": "313-04R-JHG5-313-04R",
+        "description": "Squaring Table",
+        "panel": "E58",
+        "panelDesctiption": "1/70",
+        "progress": 3,
+        "abbreviation": "ST",
+        "status": "in progress"
+    },
+    {
+        "name": "Name in 20 characters",
+        "currentJobs": "313-04R-JHG5-313-04R",
+        "description": "Extruder",
+        "panel": "A41",
+        "panelDesctiption": "99/100",
+        "progress": 99,
+        "abbreviation": "E",
+        "status": "in progress"
+    },
+    {
+        "name": "Station No. 01",
+        "currentJobs": "615-18A-EXT 1",
+        "description": "Sheathing Bridge",
+        "panel": "A41",
+        "panelDesctiption": "99/100",
+        "progress": 64,
+        "abbreviation": "SB",
+        "status": "iddle"
+    },
+    {
+        "name": "Station No. 02",
+        "currentJobs": "",
+        "description": "Wall Panel Line",
+        "panel": "",
+        "panelDesctiption": "",
+        "abbreviation": "WPL",
+        "status": "iddle"
+    },
+    {
+        "name": "Station No. 02",
+        "currentJobs": "615-18A-EXT 1",
+        "description": "Wall Panel Line",
+        "panel": "---",
+        "panelDesctiption": "0/0",
+        "progress": 0,
+        "abbreviation": "WPL",
+        "status": "iddle"
+    },
+    {
+        "name": "Station No. 03",
+        "currentJobs": "313-04R-JHG5",
+        "description": "Wall Panel Line",
+        "panel": "A41",
+        "panelDesctiption": "40/61",
+        "progress": 75,
+        "abbreviation": "WPL",
+        "status": "in progress"
+    },
+    {
+        "name": "Station No. 04",
+        "currentJobs": "313-04R-JHG5-313-04R",
+        "description": "Extruder",
+        "panel": "Y45",
+        "panelDesctiption": "16/43",
+        "progress": 33,
+        "abbreviation": "E",
+        "status": "error"
+    },
+    {
+        "name": "Station No. 05",
+        "currentJobs": "545-23L-DKK6",
+        "description": "Sheathing Bridge",
+        "panel": "A41",
+        "panelDesctiption": "4/7",
+        "progress": 12,
+        "abbreviation": "SB",
+        "status": "in progress"
+    },
+    {
+        "name": "Station No. 06",
+        "currentJobs": "313-04R-JHG5-313-04R",
+        "description": "Squaring Table",
+        "panel": "E58",
+        "panelDesctiption": "1/70",
+        "progress": 3,
+        "abbreviation": "ST",
+        "status": "in progress"
+    }
+],
+"jobs": [
+    {
+        "name": "Name in 20 characters",
+        "currentJobs": "313-04R-JHG5-313-04R",
+        "description": "Sheathing Bridge",
+        "panel": "A45",
+        "panelDesctiption": "78/150",
+        "progress": 56,
+        "abbreviation": "SB",
+        "status": "in progress"
+    },
+    {
+        "name": "Station No. 05",
+        "currentJobs": "313-04R-JHG5",
+        "description": "Sheathing Bridge",
+        "panel": "B37",
+        "panelDesctiption": "14/15",
+        "progress": 90,
+        "abbreviation": "SB",
+        "status": "in progress"
+    },
+    {
+        "name": "Station No. 16",
+        "currentJobs": "313-04R-JHG5",
+        "description": "Sheathing Bridge",
+        "panel": "A41",
+        "panelDesctiption": "99/102",
+        "progress": 95,
+        "abbreviation": "SB",
+        "status": "canceled"
+    },
+    {
+        "name": "Station No. 06",
+        "currentJobs": "545-23L-DKK6",
+        "description": "Squaring Table",
+        "panel": "P110",
+        "panelDesctiption": "12/64",
+        "progress": 13,
+        "abbreviation": "ST",
+        "status": "in progress"
+    },
+    {
+        "name": "Name in 20 characters",
+        "currentJobs": "04R-JHG5-313-04R",
+        "description": "Wall Panel Line",
+        "panel": "E58",
+        "panelDesctiption": "5/13",
+        "progress": 45,
+        "abbreviation": "WPL",
+        "status": "canceled"
+    },
+    {
+        "name": "Station No. 16",
+        "currentJobs": "313-04R-JHG5",
+        "description": "Sheathing Bridge",
+        "panel": "A41",
+        "panelDesctiption": "99/102",
+        "progress": 95,
+        "abbreviation": "SB",
+        "status": "canceled"
+    },
+    {
+        "name": "Station No. 10",
+        "currentJobs": "545-23L-DKK6",
+        "description": "Wall Panel Line",
+        "panel": "A54",
+        "panelDesctiption": "0/63",
+        "progress": 0,
+        "abbreviation": "WPL",
+        "status": "ready"
+    },
+    {
+        "stationList": [
+            {
+                "name": "Station No. 05",
+                "description": "Extruder",
+                "abbreviation": "E",
+                "panel": "",
+                "panelDesctiption": "28/32",
+                "progress": 96,
+                "status": "completed"
+            },
+            {
+                "name": "Name in 20 characters",
+                "description": "Squaring Table",
+                "abbreviation": "ST",
+                "panel": "P110",
+                "panelDesctiption": "24/32",
+                "progress": 80,
+                "status": "in progress"
+            },
+            {
+                "name": "Station No. 16",
+                "description": "Sheathing Bridge",
+                "abbreviation": "SB",
+                "panel": "E58",
+                "panelDesctiption": "5/32",
+                "progress": 13,
+                "status": "in progress"
+            },
+            {
+                "name": "Name in 20 characters",
+                "description": "Wall Panel Line",
+                "abbreviation": "WPL",
+                "panel": "",
+                "panelDesctiption": "0/32",
+                "progress": 0,
+                "status": "ready"
+            }
+        ],
+        "currentJobs": "313-04R-JHG5-313-04R",
+        "panel": "",
+        "panelDesctiption": "78/150",
+        "progress": 56,
+        "status": "in progress",
+        "panels": [
+            {
+                "name": "A45",
+                "status": "completed",
+                "progress": 64
+            },
+            {
+                "name": "H03",
+                "status": "Done by hand",
+                "progress": 0
+            },
+            {
+                "name": "E449",
+                "status": "in progress",
+                "progress": 33
+            },
+            {
+                "name": "P110",
+                "status": "ready",
+                "progress": 0
+            },
+            {
+                "name": "H03",
+                "status": "ready",
+                "progress": 0
+            },
+            {
+                "name": "E58",
+                "status": "ready",
+                "progress": 0
+            },
+            {
+                "name": "E58",
+                "status": "ready",
+                "progress": 0
+            },
+            {
+                "name": "A45",
+                "status": "completed",
+                "progress": 64
+            },
+            {
+                "name": "H03",
+                "status": "Done by hand",
+                "progress": 0
+            },
+            {
+                "name": "E449",
+                "status": "in progress",
+                "progress": 33
+            },
+            {
+                "name": "P110",
+                "status": "ready",
+                "progress": 0
+            },
+            {
+                "name": "H03",
+                "status": "ready",
+                "progress": 0
+            },
+            {
+                "name": "E58",
+                "status": "ready",
+                "progress": 0
+            },
+            {
+                "name": "E58",
+                "status": "ready",
+                "progress": 0
+            }
+         ]
+    },
+    {
+        "name": "Name in 20 characters",
+        "currentJobs": "313-04R-JHG5-313-04R",
+        "description": "Sheathing Bridge",
+        "panel": "A45",
+        "panelDesctiption": "78/150",
+        "progress": 56,
+        "abbreviation": "SB",
+        "status": "in progress"
+    },
+    {
+        "name": "Station No. 05",
+        "currentJobs": "313-04R-JHG5",
+        "description": "Extruder",
+        "panel": "B37",
+        "panelDesctiption": "14/15",
+        "progress": 90,
+        "abbreviation": "E",
+        "status": "in progress",
+        "panels": [
+            {
+                "name": "A45",
+                "status": "completed",
+                "progress": 64
+            },
+            {
+                "name": "H03",
+                "status": "Done by hand",
+                "progress": 0
+            },
+            {
+                "name": "E449",
+                "status": "in progress",
+                "progress": 33
+            },
+            {
+                "name": "P110",
+                "status": "ready",
+                "progress": 0
+            },
+            {
+                "name": "H03",
+                "status": "ready",
+                "progress": 0
+            },
+            {
+                "name": "E58",
+                "status": "ready",
+                "progress": 0
+            },
+            {
+                "name": "E58",
+                "status": "ready",
+                "progress": 0
+            },
+            {
+                "name": "A45",
+                "status": "completed",
+                "progress": 64
+            },
+            {
+                "name": "H03",
+                "status": "Done by hand",
+                "progress": 0
+            },
+            {
+                "name": "E449",
+                "status": "in progress",
+                "progress": 33
+            },
+            {
+                "name": "P110",
+                "status": "ready",
+                "progress": 0
+            },
+            {
+                "name": "H03",
+                "status": "ready",
+                "progress": 0
+            },
+            {
+                "name": "E58",
+                "status": "ready",
+                "progress": 0
+            },
+            {
+                "name": "E58",
+                "status": "ready",
+                "progress": 0
+            }
+         ]
+    }
+]
+}

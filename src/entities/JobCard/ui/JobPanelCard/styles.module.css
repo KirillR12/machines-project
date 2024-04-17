@@ -1,0 +1,16 @@
+.JobPanelCard {
+    width: 896px;
+    min-height: 35px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 3px;
+    border: 1px solid rgba(207,213,221);
+    padding: 0 10px;
+}
+
+.progress {
+    width: 148px;
+}
+
+.panel {
+    width: 35px;
+}

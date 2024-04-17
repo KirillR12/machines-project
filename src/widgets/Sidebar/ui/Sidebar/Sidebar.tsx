@@ -7,8 +7,8 @@ import { VStack } from '@/shared/ui/Stack'
 import { NavigateListSidebar } from '@/features/NavigateListSidebar'
 import { MyAccount } from '@/entities/MyAccount'
 import { Icon } from '@/shared/ui/Icon'
-import { SupportSidebar } from '@/entities/SupportSidebar'
 import { BtnSidebar } from '@/entities/BtnSidebar'
+import { SupportSidebar } from '@/entities/SupportSidebar'
 
 interface SidebarProps {
    className?: string
