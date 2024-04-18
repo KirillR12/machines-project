@@ -33,7 +33,7 @@ npm run start:dev - запуск frontend и backend приложения
 ## Конфигурация проекта
 
 Библиотеки используемые на проекте:
-
+```
 - Prodaction:
 Vite - сборщик проекта. Config - vite.config.ts
 React - библиотека для создания SPA-приложений
@@ -46,7 +46,7 @@ json-server - фейковый backend
 eslint - анализ кода
 classnames - библиотека для работы с классами html
 typescript - используемый язык на проекте
-
+```
 ----
 
 ## Шейред (shared)
@@ -57,12 +57,13 @@ typescript - используемый язык на проекте
 - ui - ui компоненты: 
 
 - [Button](/src/shared/Button) - обертка для кнопак с темами.
-- [Card](/src/shared/Card) - оберка в виде карточки. Принимает children и 3 темы: dark, white, success.
-- [Hr](/src/shared/Hr) - разделение. Принимает width - ширину, height - высоту, max - растягивается на всю свободную ширину по горизонтали,hrVertically - принимает вертикальное положение, inverted - меняет цвет, maxInverted - растягивается на всю свободную ширину по вертикали.
+- [Card](/src/shared/Card) - оберка в виде карточки. 
+Принимает children и 3 темы: dark, white, success.
+- [Hr](/src/shared/Hr) - разделение. 
+Принимает width - ширину, height - высоту, max - растягивается на всю свободную ширину по горизонтали, hrVertically - принимает вертикальное положение, inverted - меняет цвет, maxInverted - растягивается на всю свободную ширину по вертикали.
 - [Icon](/src/shared/Icon) - использовал для отрисовки svg иконок
 - [Stack](/src/shared/Stack) - помогает в ручную не прописывать свойства flex, flex-direction, justify-content, align-items.
 - [Text](/src/shared/Text) - помогает отображать все виды текста, которые есть на макете, с помощью переданных пропсов.
-
 
 
 ## Сущности (entities)
