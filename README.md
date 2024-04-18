@@ -1,4 +1,4 @@
-![Иллюстрация к проекту](https://github.com/KirillR12/machines-project/tree/main/src/shared/assets/img/image.png)
+![Иллюстрация к проекту](https://github.com/KirillR12/machines-project/blob/main/src/shared/assets/img/image.png)
 
 ## Запуск проекта
 
