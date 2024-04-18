@@ -33,20 +33,20 @@ npm run start:dev - запуск frontend и backend приложения
 ## Конфигурация проекта
 
 Библиотеки используемые на проекте:
-```
-- Prodaction:
-Vite - сборщик проекта. Config - vite.config.ts
-React - библиотека для создания SPA-приложений
-Redux/toolkit - State Manager, использовался для работы с запросами
-React-progress-bar - библиотека для работы с прогресс баром 
-concurrently - помогает объединить команды
+
+Prodaction:
+- Vite - сборщик проекта. Config - vite.config.ts
+- React - библиотека для создания SPA-приложений
+- Redux/toolkit - State Manager, использовался для работы с запросами
+- React-progress-bar - библиотека для работы с прогресс баром 
+- concurrently - помогает объединить команды
 
 - Dev:
-json-server - фейковый backend
-eslint - анализ кода
-classnames - библиотека для работы с классами html
-typescript - используемый язык на проекте
-```
+- json-server - фейковый backend
+- eslint - анализ кода
+- classnames - библиотека для работы с классами html
+- typescript - используемый язык на проекте
+
 ----
 
 ## Шейред (shared)

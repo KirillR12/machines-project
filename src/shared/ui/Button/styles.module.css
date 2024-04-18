@@ -1,6 +1,5 @@
 .Button {
     padding: 6px 15px;
-
     color: var(--primary-color);
 
     cursor: pointer;
@@ -18,3 +17,10 @@
     background: none;
     outline: none;
 } 
+
+.primary {
+    border: none;
+    border-radius: 60px;
+    padding: 10px 30px;
+    background: rgba(44, 106, 199, 1);
+}

@@ -4,6 +4,7 @@ import styles from './styles.module.css'
 
 export enum ButtonTheme {
     CLEAR = 'clear',
+    PRIMARY = 'primary'
 }
 
  interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
