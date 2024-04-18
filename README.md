@@ -17,7 +17,7 @@ npm run start:dev - запуск frontend и backend приложения
 - `npm run start:dev:server` - Запуск backend сервера
 - `npm run start:dev` - Запуск frontend и backend приложения
 - `npm run build` - Сборка проекта для продакшена
-- `npm run lint:ts` - Проверка ts файлов линтером
+- `npm run lint:ts` - Проверка ts файлов линтером 
 - `npm run lint:ts:fix` - Исправление ts файлов линтером
 
 ----
