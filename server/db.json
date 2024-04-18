@@ -247,7 +247,19 @@
         "panelDesctiption": "78/150",
         "progress": 56,
         "abbreviation": "SB",
-        "status": "in progress"
+        "status": "in progress",
+                "panels": [
+            {
+                "name": "A45",
+                "status": "completed",
+                "progress": 64
+            },
+            {
+                "name": "H03",
+                "status": "Done by hand",
+                "progress": 0
+            }
+        ]
     },
     {
         "name": "Station No. 05",
@@ -257,7 +269,19 @@
         "panelDesctiption": "14/15",
         "progress": 90,
         "abbreviation": "SB",
-        "status": "in progress"
+        "status": "in progress",
+                "panels": [
+            {
+                "name": "A45",
+                "status": "completed",
+                "progress": 64
+            },
+            {
+                "name": "H03",
+                "status": "Done by hand",
+                "progress": 0
+            }
+        ]
     },
     {
         "name": "Station No. 16",
@@ -267,7 +291,19 @@
         "panelDesctiption": "99/102",
         "progress": 95,
         "abbreviation": "SB",
-        "status": "canceled"
+        "status": "canceled",
+                "panels": [
+            {
+                "name": "A45",
+                "status": "completed",
+                "progress": 64
+            },
+            {
+                "name": "H03",
+                "status": "Done by hand",
+                "progress": 0
+            }
+        ]
     },
     {
         "name": "Station No. 06",
@@ -277,7 +313,19 @@
         "panelDesctiption": "12/64",
         "progress": 13,
         "abbreviation": "ST",
-        "status": "in progress"
+        "status": "in progress",
+                "panels": [
+            {
+                "name": "A45",
+                "status": "completed",
+                "progress": 64
+            },
+            {
+                "name": "H03",
+                "status": "Done by hand",
+                "progress": 0
+            }
+        ]
     },
     {
         "name": "Name in 20 characters",
@@ -287,7 +335,19 @@
         "panelDesctiption": "5/13",
         "progress": 45,
         "abbreviation": "WPL",
-        "status": "canceled"
+        "status": "canceled",
+                "panels": [
+            {
+                "name": "A45",
+                "status": "completed",
+                "progress": 64
+            },
+            {
+                "name": "H03",
+                "status": "Done by hand",
+                "progress": 0
+            }
+        ]
     },
     {
         "name": "Station No. 16",
@@ -297,7 +357,19 @@
         "panelDesctiption": "99/102",
         "progress": 95,
         "abbreviation": "SB",
-        "status": "canceled"
+        "status": "canceled",
+        "panels": [
+            {
+                "name": "A45",
+                "status": "completed",
+                "progress": 64
+            },
+            {
+                "name": "H03",
+                "status": "Done by hand",
+                "progress": 0
+            }
+        ]
     },
     {
         "name": "Station No. 10",
@@ -434,7 +506,19 @@
         "panelDesctiption": "78/150",
         "progress": 56,
         "abbreviation": "SB",
-        "status": "in progress"
+        "status": "in progress",
+        "panels": [
+            {
+                "name": "A45",
+                "status": "completed",
+                "progress": 64
+            },
+            {
+                "name": "H03",
+                "status": "Done by hand",
+                "progress": 0
+            }
+        ]
     },
     {
         "name": "Station No. 05",

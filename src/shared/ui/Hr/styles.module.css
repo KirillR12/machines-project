@@ -1,7 +1,8 @@
 .Hr {
-    height: 1px;
+    height: 0.5px;
     background: rgba(64, 87, 113);
     border: none;
+    z-index: 999;
 }
 
 .max {
@@ -17,6 +18,7 @@
     background: rgba(64, 87, 113);
     border: none;
     border-left: 0.5px solid rgba(207,213,221);
+    z-index: 999;
    }
 
 .inverted {

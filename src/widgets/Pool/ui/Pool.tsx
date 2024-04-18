@@ -1,4 +1,4 @@
-import { memo } from 'react'
+import { memo, useCallback, useState } from 'react'
 import classNames from 'classnames'
 import styles from './styles.module.css'
 import { PoolHeader } from '@/entities/PoolHeader'
@@ -16,6 +16,11 @@ export const Pool = memo((props: PoolProps) => {
     } = props
 
     const { data } = usePoolContentApi(null)
+    const [collapsed, setCollapsed] = useState<number>()
+
+    const onCollapsed = useCallback((id: number) => {
+        setCollapsed(id)
+    }, [])
 
     if (data) {
         return (
@@ -23,7 +28,13 @@ export const Pool = memo((props: PoolProps) => {
                 <PoolHeader />
                 <VStack gap="12" className={styles.PoolContent}>
                     {data.map((job, i) => (
-                        <PoolContent key={job.panelDesctiption + i} job={job} />
+                        <PoolContent
+                            key={job.panelDesctiption + i}
+                            id={i}
+                            job={job}
+                            collapsed={collapsed === i}
+                            onCollapsed={onCollapsed}
+                        />
                     ))}
                 </VStack>
             </div>

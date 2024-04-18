@@ -4,7 +4,7 @@
 }
 
 .PoolContent {
-    border-radius: 3px;
+    border-radius: 3px  3px  3px  0;
     border: 1px solid rgba(207,213,221);
 
     &:hover {
@@ -19,6 +19,13 @@
 .jobPanelCard {
     max-height: 295px;
     overflow-y: auto;
-    padding-top: 10px;
-    padding-left: 10px;
+    padding: 10px;
+}
+
+.btn {
+    background-color: rgba(207,213,221);
+    border-radius: 0px 0px 3px 3px;
+    padding: 5px 20px 5px 20px;
+    border: 1px solid rgba(64,87,113);
+    border-top-style: none;
 }
