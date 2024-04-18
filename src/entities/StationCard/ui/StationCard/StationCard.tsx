@@ -1,15 +1,14 @@
 import classNames from 'classnames'
 import { memo } from 'react'
 import styles from './styles.module.css'
-import { Icon } from '@/shared/ui/Icon'
-import StationIcon from '@/shared/assets/icons/station.svg'
 import { Text } from '@/shared/ui/Text'
 import { HStack, VStack } from '@/shared/ui/Stack'
 import { Hr } from '@/shared/ui/Hr'
-import { Progress } from '@/shared/ui/Progress'
+import { Progress } from '@/entities/Progress'
 import { Card } from '@/shared/ui/Card'
 import { PanelContent } from '@/entities/PanelContent'
 import { Station } from '../../model/types/Station'
+import { icon } from '../../model/selector/getIcon'
 
 interface StationCardProps {
    className?: string
@@ -34,7 +33,7 @@ export const StationCard = memo((props: StationCardProps) => {
 
     return (
         <HStack gap="16" align="center" className={classNames(styles.StationCard, {}, [className])}>
-            <Icon Svg={StationIcon} className={styles.icon} />
+            {icon(name)}
             <HStack align="start" className={styles.content} max>
                 <HStack gap="24" align="end">
                     <HStack gap="50" align="end">
@@ -45,7 +44,11 @@ export const StationCard = memo((props: StationCardProps) => {
                             </HStack>
                             <HStack gap="6" justify="center" align="end">
                                 <Text text="Current job:" sizeText="Medium14" color="grey" />
-                                <Text text={currentJobs} sizeText="Medium14" color="brightBlue" />
+                                {currentJobs ? (
+                                    <Text text={currentJobs} sizeText="Medium14" color="brightBlue" />
+                                ) : (
+                                    <Text text="Not found" sizeText="Medium14" color="darkGrey" italic />
+                                )}
                             </HStack>
                         </VStack>
                         <HStack gap="16" align="end" className={styles.contentPanel}>
@@ -73,7 +76,7 @@ export const StationCard = memo((props: StationCardProps) => {
                                 <Text text={status} sizeText="Semibold12" color="commentColor" />
                             </Card>
                         )}
-                        <Progress completed={progress} status={status} panelDesctiption={panelDesctiption} />
+                        {currentJobs ? <Progress completed={progress} status={status} /> : null}
                     </VStack>
                 </HStack>
             </HStack>

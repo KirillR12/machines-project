@@ -5,7 +5,7 @@ import { HStack } from '@/shared/ui/Stack'
 import { Text } from '@/shared/ui/Text'
 import { PanelContent } from '@/entities/PanelContent'
 import { Card } from '@/shared/ui/Card'
-import { Progress } from '@/shared/ui/Progress'
+import { Progress } from '@/entities/Progress'
 import { Station } from '@/entities/StationCard'
 import { NameJobContent } from '../NameJobContent/NameJobContent'
 
@@ -23,13 +23,10 @@ export const JobNameCard = memo((props: JobCollapsedCardProps) => {
     const {
         name,
         description,
-        currentJobs,
         panel,
         panelDesctiption,
         progress,
         status,
-        // panels,
-        // stationList
     } = job
 
     return (
@@ -53,7 +50,6 @@ export const JobNameCard = memo((props: JobCollapsedCardProps) => {
                 className={styles.progress}
                 completed={progress}
                 status={status}
-                panelDesctiption={panelDesctiption}
             />
         </HStack>
     )

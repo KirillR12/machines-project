@@ -13,7 +13,7 @@
 }
 
 .hrVertically {
-    width: 1px;   
+    width: 0.5px;   
     background: rgba(64, 87, 113);
     border: none;
     border-left: 0.5px solid rgba(207,213,221);

@@ -7,6 +7,7 @@ import { Button, ButtonTheme } from '@/shared/ui/Button'
 import ArrowTop from '@/shared/assets/icons/arrowTop.svg'
 import ArrowBottom from '@/shared/assets/icons/arrowBottom.svg'
 import { Text } from '@/shared/ui/Text'
+import { Icon } from '@/shared/ui/Icon'
 
  interface NavigationShortcutsProps {
    className?: string
@@ -42,7 +43,7 @@ export const NavigationShortcuts = memo((props: NavigationShortcutsProps) => {
                     <HStack gap="6">
                         <shortcuts.logo />
                         <Text title={shortcuts.name} sizeTitle="Semibold16" tag="h5" color="blue" />
-                        {action ? <ArrowTop /> : <ArrowBottom />}
+                        {action ? <Icon Svg={ArrowTop} /> : <Icon Svg={ArrowBottom} />}
                     </HStack>
                 </Button>
 

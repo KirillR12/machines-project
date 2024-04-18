@@ -6,29 +6,8 @@
     cursor: pointer;
 
     &:hover {
-        opacity: 0.8;
+        opacity: 0.9;
     }
-
-    .readonly {
-        opacity: 0.5;
-    }
-}
-
-.noHover:hover {
-    &:hover {
-        opacity: 1;
-    }
-}
-
-.form_theme {
-    padding: 7px 15px;
-    border: none;
-    border-radius: 10px;
-
-    color: black;
-
-    background: white;
-    outline: none;
 }
 
 .clear,
@@ -38,4 +17,4 @@
 
     background: none;
     outline: none;
-}
+} 

@@ -7,5 +7,6 @@ description: string
 panel: string
 panelDesctiption: string
 progress: number
+abbreviation: string
 status: statusType
 }

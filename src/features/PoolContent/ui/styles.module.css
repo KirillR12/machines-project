@@ -5,6 +5,14 @@
 
 .PoolContent {
     border-radius: 3px;
+    border: 1px solid rgba(207,213,221);
+
+    &:hover {
+        border: 1px solid rgba(64,87,113);
+    }
+}
+
+.border {
     border: 1px solid rgba(64,87,113);
 }
 

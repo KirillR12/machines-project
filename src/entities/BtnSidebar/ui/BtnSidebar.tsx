@@ -21,14 +21,14 @@ export const BtnSidebar = memo((props: BtnSidebarProps) => {
 
     if (collapsed) {
         return (
-            <Button theme={ButtonTheme.CLEAR} onClick={isCollapsedOpen} className={className} noHover>
+            <Button theme={ButtonTheme.CLEAR} onClick={isCollapsedOpen} className={className}>
                 <Icon Svg={BtnOpen} />
             </Button>
         )
     }
 
     return (
-        <Button theme={ButtonTheme.CLEAR} onClick={isCollapsedClose} className={className} noHover>
+        <Button theme={ButtonTheme.CLEAR} onClick={isCollapsedClose} className={className}>
             <Icon Svg={BtnClose} />
         </Button>
     )

@@ -1,4 +1,4 @@
-import { ButtonHTMLAttributes, FC } from 'react'
+import { ButtonHTMLAttributes, ReactNode } from 'react'
 import classNames from 'classnames'
 import styles from './styles.module.css'
 
@@ -9,38 +9,23 @@ export enum ButtonTheme {
  interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
    className?: string,
    theme?: ButtonTheme,
-   square?: boolean,
-   disabled?: boolean,
-   fillWidth?: boolean
-   noHover?: boolean
+   children: ReactNode
 }
 
-export const Button: FC <ButtonProps> = (props) => {
+export const Button = (props: ButtonProps) => {
     const {
         children,
         className,
         theme = ButtonTheme.CLEAR,
-        square,
-        disabled,
-        fillWidth,
-        noHover,
         ...otherProps
     } = props
-
-    const mods = {
-        [styles.square]: square,
-        [styles.disabled]: disabled,
-        [styles.fillWidth]: fillWidth,
-        [styles.noHover]: noHover,
-    }
 
     return (
         <button
             type="button"
-            disabled={disabled}
             className={classNames(
                 styles.Button,
-                mods,
+                {},
                 [className, styles[theme]],
             )}
             {...otherProps}

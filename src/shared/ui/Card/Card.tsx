@@ -7,6 +7,7 @@ import styles from './styles.module.css'
    children: ReactNode
    dark?: boolean
    white?: boolean
+   success?: boolean
 }
 
 export const Card = memo((props: CardProps) => {
@@ -15,11 +16,13 @@ export const Card = memo((props: CardProps) => {
         children,
         dark,
         white,
+        success,
     } = props
 
     const mods = {
         [styles.dark]: dark,
         [styles.white]: white,
+        [styles.success]: success,
     }
 
     return (

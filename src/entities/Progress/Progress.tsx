@@ -1,15 +1,14 @@
 import { memo } from 'react'
 import './styles.css'
 import ProgressBar from '@ramonak/react-progress-bar'
-import { HStack } from '../Stack'
-import { Text } from '../Text'
+import { HStack } from '../../shared/ui/Stack'
+import { Text } from '../../shared/ui/Text'
 import { statusType } from '@/shared/types/status'
 
 interface ProgressProps {
     className?: string
     completed: number
     status: statusType
-    panelDesctiption?: string
     inverted?: boolean
 }
 
@@ -18,7 +17,6 @@ export const Progress = memo((props: ProgressProps) => {
         className,
         completed,
         status,
-        panelDesctiption,
         inverted,
     } = props
 
@@ -63,20 +61,20 @@ export const Progress = memo((props: ProgressProps) => {
     )
 
     const errorComp = status === 'error'
-    const loadingComp = status === 'loading' || status === 'canceled' || status === 'iddle'
-    const completedComp = status === 'completed'
-    const emptyComp = status === 'ready'
+    const loadingComp = status === 'loading' || status === 'canceled' || status === 'iddle' || status === 'ready'
+    const completedComp = status === 'completed' || status === 'Done by hand'
+    const ordinaryComp = status === 'in progress'
 
-    if (!emptyComp) {
+    if (errorComp || loadingComp || completedComp || ordinaryComp) {
         return (
-            <HStack justify="start" gap="6" className={className}>
+            <HStack justify="end" gap="6" className={className}>
                 {completed && !inverted ? <Text text={`${completed}%`} sizeText="Bold12" color="brightBlue" /> : null}
                 {completed === 0 && !inverted ? <Text text={`${completed}%`} sizeText="Bold12" color="grey" /> : null}
                 {inverted ? <Text text={`${completed}%`} sizeText="Bold12" color="white" /> : null}
                 {errorComp ? contentError : null}
                 {loadingComp ? contentLoading : null}
                 {completedComp ? contentCompleted : null}
-                {!errorComp && !loadingComp && !completedComp ? content : null}
+                {ordinaryComp ? content : null}
             </HStack>
         )
     }

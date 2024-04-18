@@ -5,13 +5,15 @@ import { Text } from '@/shared/ui/Text'
 import { Card } from '@/shared/ui/Card'
 import { NameJobContent } from '../NameJobContent/NameJobContent'
 import styles from './styles.module.css'
-import { Progress } from '@/shared/ui/Progress'
+import { Progress } from '@/entities/Progress'
 import { Panel } from '../../model/types/Panel'
 
  interface JobCardProps {
    className?: string
    panel: Panel
    index: number
+   done?: boolean
+   progressCard?: boolean
 }
 
 export const JobPanelCard = memo((props: JobCardProps) => {
@@ -19,6 +21,8 @@ export const JobPanelCard = memo((props: JobCardProps) => {
         className,
         panel,
         index,
+        done,
+        progressCard,
     } = props
 
     const {
@@ -27,13 +31,22 @@ export const JobPanelCard = memo((props: JobCardProps) => {
         progress,
     } = panel
 
+    const mods = {
+        [styles.done]: done,
+        [styles.progressCard]: progressCard,
+    }
+
     return (
-        <HStack justify="between" className={classNames(styles.JobPanelCard, {}, [className])}>
+        <HStack gap="12" justify="between" className={classNames(styles.JobPanelCard, mods, [className])}>
             <Text text={String(index)} sizeText="Semibold12" color="darkGrey" />
-            <Text className={styles.panel} text={name} sizeText="Semibold14" color="darkGrey" />
-            <Card>
-                <Text text="completed" sizeText="Semibold12" color="commentColor" />
-            </Card>
+            <HStack className={styles.panel}>
+                <Text text={name} sizeText="Semibold14" color="darkGrey" />
+            </HStack>
+            <HStack className={styles.status}>
+                <Card>
+                    <Text text={status} sizeText="Semibold12" color="commentColor" />
+                </Card>
+            </HStack>
             <NameJobContent
                 className={styles.name}
                 name="Name in 20 characters"

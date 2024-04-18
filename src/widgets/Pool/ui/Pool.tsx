@@ -22,8 +22,8 @@ export const Pool = memo((props: PoolProps) => {
             <div className={classNames(styles.Pool, {}, [className])}>
                 <PoolHeader />
                 <VStack gap="12" className={styles.PoolContent}>
-                    {data.map((job) => (
-                        <PoolContent key={job.panelDesctiption} job={job} />
+                    {data.map((job, i) => (
+                        <PoolContent key={job.panelDesctiption + i} job={job} />
                     ))}
                 </VStack>
             </div>

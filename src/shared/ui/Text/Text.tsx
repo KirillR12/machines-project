@@ -20,6 +20,8 @@ type HeaderTagType = 'h1' | 'h2' | 'h5'
    sizeTitle?: sizeTitleH1Props | sizeTitleH2Props | sizeTitleH5Props
    tag?: HeaderTagType
    color?: textColor
+   dashed?: boolean
+   italic?: boolean
 }
 
 const mapSizeToHeaderTag: Record<HeaderTagType, HeaderTagType> = {
@@ -37,6 +39,8 @@ export const Text = memo((props: TextProps) => {
         sizeTitle = 'Extrabold28',
         tag = 'h1',
         color = '',
+        dashed,
+        italic,
     } = props
 
     const HeaderTag = mapSizeToHeaderTag[tag]
@@ -44,10 +48,15 @@ export const Text = memo((props: TextProps) => {
     const additionClassTitle = [styles[color], styles[sizeTitle], className]
     const additionClassText = [styles[color], styles[sizeText], className]
 
+    const mods = {
+        [styles.dashed]: dashed,
+        [styles.italic]: italic,
+    }
+
     return (
         <>
-            {title ? <HeaderTag className={classNames('', {}, additionClassTitle)}>{title}</HeaderTag> : ''}
-            {text ? <p className={classNames('', {}, additionClassText)}>{text}</p> : ''}
+            {title ? <HeaderTag className={classNames('', mods, additionClassTitle)}>{title}</HeaderTag> : ''}
+            {text ? <p className={classNames('', mods, additionClassText)}>{text}</p> : ''}
         </>
     )
 })

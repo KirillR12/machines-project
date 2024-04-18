@@ -20,7 +20,7 @@ export const EquipmentContent = memo((props: EquipmentContentProps) => {
         <>
             <Hr width="753px" inverted max />
             <VStack gap="6" className={classNames(styles.EquipmentContent, {}, [className])}>
-                {station!.map((el) => <StationCard key={el.name} station={el} />)}
+                {station!.map((el, i) => <StationCard key={el.name + i} station={el} />)}
             </VStack>
         </>
     )
